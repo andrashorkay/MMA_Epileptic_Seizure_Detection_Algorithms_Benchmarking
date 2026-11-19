@@ -1,1 +1,7 @@
 CBraMod/
+
+# Datasets: large files, download locally, never push to GitHub
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
